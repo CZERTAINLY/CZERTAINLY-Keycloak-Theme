@@ -53,3 +53,10 @@
 .login-pf .login-pf-page .subtitle {
     display: none;
 }
+
+/* put CZERTAINLY logo above username field into box with input fields */
+.login-pf-header:before {
+    content: url('../img/czertainly_logo.svg');
+    display: block;
+    margin: 0 auto;
+}
