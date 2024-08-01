@@ -1,0 +1,62 @@
+.login-pf body {
+    background: whitesmoke none;
+    /* I think that posterized chain is not necesary, login page looks good just
+       with very soft gray.
+    background-image: url('../img/background.svg'); */
+    background-size: cover;
+}
+
+/* inspired by https://github.com/CZERTAINLY/CZERTAINLY-FE-Administrator/blob/develop/src/components/AppLogin/style.module.scss:.container */
+.login-pf .card-pf {
+    margin: auto;
+
+    border: solid 1px #ddd;
+    border-radius: 1.5em;
+    box-shadow: #ddd 0 0 0.5em;
+
+    width: fit-content;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+
+    padding: 2rem;
+}
+
+/* sign in button */
+.login-pf .pf-m-primary {
+    height: 36px;
+    border-radius: 2px;
+    background-color: #3fb24d;
+    /* font-family: Muli;
+    font-size: 14px; */
+    font-weight: bold;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    border-style: none;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+/*  this isn't only login (which is empty) but also Update information which
+    shown in case IdP didn't sent all what is needed. */
+.login-pf .login-pf-page .col-md-10 {
+    width: 100%;
+}
+
+/* disable hint that fields marked * are required, this is obvious ... */
+.login-pf .login-pf-page .subtitle {
+    display: none;
+}
+
+/* put CZERTAINLY logo above username field into box with input fields */
+.login-pf-header:before {
+    content: url('../img/czertainly_logo.svg');
+    display: block;
+    margin: 0 auto;
+}
