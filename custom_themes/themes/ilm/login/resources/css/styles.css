@@ -1,6 +1,6 @@
 .login-pf body {
     background: whitesmoke none;
-    /* I think that posterized chain is not necesary, login page looks good just
+    /* I think that posterized chain is not necessary, login page looks good just
        with very soft gray.
     background-image: url('../img/background.svg'); */
     background-size: cover;
