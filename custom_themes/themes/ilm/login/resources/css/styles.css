@@ -44,7 +44,7 @@
 }
 
 /*  this isn't only login (which is empty) but also Update information which
-    shown in case IdP didn't sent all what is needed. */
+    shown in case IdP didn't send all what is needed. */
 .login-pf .login-pf-page .col-md-10 {
     width: 100%;
 }
