@@ -54,7 +54,7 @@
     display: none;
 }
 
-/* put CZERTAINLY logo above username field into box with input fields */
+/* put OT/ILM logo (ot-logo-color.svg) above username field into box with input fields */
 .login-pf-header:before {
     content: "";
     display: block;
